@@ -1,0 +1,5 @@
+nbde_client_bindings:
+  - device: /dev/vda2
+    encryption_password: <generate an encrypted string with ansible-vault>
+    threshold: 2
+    servers: "{{ groups['nbde-servers'] | difference([inventory_hostname]) }}"

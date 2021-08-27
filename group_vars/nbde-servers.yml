@@ -1,0 +1,2 @@
+nbde_server_fetch_keys: yes
+nbde_server_keys_dir: /home/ansible/nbde/keys
